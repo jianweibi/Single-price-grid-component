@@ -1,0 +1,122 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+#card {
+	-webkit-box-shadow: 7px 8px 10px 0px rgba(0,0,0,0.54); 
+	box-shadow: 7px 8px 10px 0px rgba(0,0,0,0.54);
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	width: 900px;
+	height: 600px;
+	font-family: 'Karla', sans-serif;
+	overflow: hidden;
+}
+
+#top {
+	padding: 40px;
+	width: 100%;
+	height: 47%;
+}
+
+#bottom {
+	width: 100%;
+	height: 53%;
+	color: white;
+}
+
+#bottom-left {
+	vertical-align: top;
+	padding-top: 25px;
+	padding-left: 40px;
+	background-color: #2ab2af;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+#bottom-right {
+	padding: 20px;
+	background-color: #1BCCC2;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+/* h2, h4, p{
+	margin: 20px;
+} */
+
+#top h2 {
+	margin-top: -5px;
+	font-size: 2rem;
+	color: #2ab2af;
+}
+
+#top h4 {
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+	color: #c0df34;
+}
+
+#top p {
+  	color: #98a6bd;
+	font-size: 1.4rem;
+	opacity: 0.7;
+}
+
+#bottom h4 {
+	margin-top: 20px;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+#price {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+#frequency {
+	margin-left: 10px;
+	position: relative;
+	top: -3px;
+	font-size: 1rem;
+	opacity: 0.7;
+}
+
+#bottom p {
+	opacity: 0.8;
+}
+
+button {
+	background-color: #c0df34;
+	color: white;
+	font-size: 1.1rem;
+	width: 85%;
+	height: 17%;
+	border: none;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #91a827;
+}
+
+#bottom-right {
+	padding-left: 50px;
+}
+
+ul {
+	font-size: 1.15rem;
+	margin-top: -10px;
+	padding: 0;
+	list-style: none;
+	opacity: 0.7;
+}
