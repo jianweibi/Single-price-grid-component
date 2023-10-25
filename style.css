@@ -25,31 +25,29 @@ html {
 }
 
 #bottom {
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 53%;
 	color: white;
 }
 
 #bottom-left {
+	flex: 1;
 	padding: 35px;
 	vertical-align: top;
 	background-color: #2ab2af;
-	display: inline-block;
 	width: 100%;
 	height: 100%;
 }
 
 #bottom-right {
-	padding: 20px;
+	flex: 1;
+	padding: 50px;
 	background-color: #1BCCC2;
-	display: inline-block;
 	width: 100%;
 	height: 100%;
 }
-
-/* h2, h4, p{
-	margin: 20px;
-} */
 
 #top h2 {
 	margin-top: -5px;
@@ -110,10 +108,6 @@ button:hover {
 	transform: scale(1.05);
 }
 
-#bottom-right {
-	padding-left: 50px;
-}
-
 ul {
 	font-size: 1.15rem;
 	margin-top: -10px;
@@ -136,6 +130,10 @@ ul {
 	#card {
 		width: 900px;
 		height: 600px;
+	}
+	
+	#bottom {
+		flex-direction: row;
 	}
 	
 	#bottom-left, #bottom-right {
