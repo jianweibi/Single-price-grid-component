@@ -135,8 +135,4 @@ ul {
 	#bottom {
 		flex-direction: row;
 	}
-	
-	#bottom-left, #bottom-right {
-		width: 50%;
-	}
 }
